@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://algotrading-orr6.onrender.com',
+  baseURL:'https://algotrading-orr6.onrender.com/api',
   timeout: 30000,
 })
 
